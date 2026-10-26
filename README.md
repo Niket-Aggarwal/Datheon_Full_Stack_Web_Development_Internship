@@ -55,6 +55,7 @@ Datheon_Full_Stack_Web_Development_Internship/
 ### 🔹 [Task 2: PulseTask - Productivity & Task Management](Task2/)
 - **Folder**: [`Task2/`](Task2/)
 - **Documentation**: [`Task2/README.md`](Task2/README.md)
+- **Live Preview**: [https://dev123.vercel.app/](https://todo-nik.vercel.app/)
 - **Summary**:
   - (HTML5, CSS3, ES6+ JavaScript, HTML5 Canvas API)
   - Complete Task CRUD with category tags (`Work`, `Personal`, `Study`, `Health`, `Finance`) and priority weights
