@@ -15,6 +15,7 @@ This repository is organized to document and showcase the end-to-end progress ac
 | Task # | Task Title | Description | Tech Stack | Status | Documentation & Demo |
 | :--- | :--- | :--- | :--- | :---: | :--- |
 | **Task 1** | **Personal Developer Portfolio** | A modern, high-performance, responsive portfolio with dark/light themes, modal dialogs, and interactive project showcases. | HTML5, CSS3, JavaScript | ![Completed](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square) | [📖 Readme](Task1/README.md) · [🌐 Live Demo](https://dev123.vercel.app/) |
+| **Task 2** | **PulseTask Productivity App** | An interactive productivity & task management application featuring drag-and-drop reordering, smart filtering, confetti rewards, and persistent storage. | HTML5, CSS3, JavaScript, Canvas API | ![Completed](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square) | [📖 Readme](Task2/README.md) · [🌐 Live Demo](https://todo-nik.vercel.app/) |
 
 ## 📂 Repository Structure
 The repository follows a clean, modular structure where every task is self-contained:
@@ -25,6 +26,11 @@ Datheon_Full_Stack_Web_Development_Internship/
 │   ├── assets/                         
 │   │   ├── favicon.ico
 │   │   └── resume.pdf
+│   ├── index.html                      
+│   ├── style.css                        
+│   ├── script.js                        
+│   └── README.md                        
+├── Task2/                              
 │   ├── index.html                      
 │   ├── style.css                        
 │   ├── script.js                        
@@ -46,6 +52,23 @@ Datheon_Full_Stack_Web_Development_Internship/
   - Fully responsive, accessible (A11y compliant with ARIA roles & keyboard navigation)
   - Includes education timeline, skills breakdown, resume viewer and contact form/actions
 
+### 🔹 [Task 2: PulseTask - Productivity & Task Management](Task2/)
+- **Folder**: [`Task2/`](Task2/)
+- **Documentation**: [`Task2/README.md`](Task2/README.md)
+- **Summary**:
+  - (HTML5, CSS3, ES6+ JavaScript, HTML5 Canvas API)
+  - Complete Task CRUD with category tags (`Work`, `Personal`, `Study`, `Health`, `Finance`) and priority weights
+  - Native HTML5 Drag-and-Drop manual reordering with grab handles and persistence
+  - Multi-dimensional filtering by status (`All`, `Active`, `Completed`), categories, and real-time title search
+  - Five distinct sorting modes (Manual, Due Date Earliest/Latest, Priority, Alphabetical)
+  - Smart due date countdowns (`Overdue`, `Due Today`, `Due Tomorrow`, or formatted date)
+  - Custom HTML5 Canvas physics-based confetti celebration on task completion
+  - Toast notification engine with one-click **Undo** recovery for deleted tasks
+  - Real-time productivity metrics overview with animated progress bar
+  - Persistent Dark / Light theme toggle with ambient background glow effects
+  - Accessible modal dialog for task editing with keyboard shortcuts (`Escape` dismissal)
+
+
 ## 💻 Local Setup & Installation
 To run any task locally on your machine:
 
@@ -64,7 +87,7 @@ To run any task locally on your machine:
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+), Modern Frameworks (React, Next.js, etc.)
 - **Styling**: Modern CSS Variables, Flexbox/Grid, Responsive Design
 - **Backend & APIs**: Node.js, Express.js, REST APIs
-- **Database & Storage**: MongoDB, PostgreSQL, LocalStorage
+- **Database & Storage**: MongoDB, LocalStorage
 - **Tools & Platforms**: Git, GitHub, VS Code, Vercel
 
 ## 🤝 Acknowledgments
